@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: rgba(224,255,99,1.00)
+}
+col {background-color: #FFF
+}
+col:nth-child(2){ 
+	background-color: #cCC
+}
+col:nth-child(3){ 
+	background-color: #996633;
+}
+td {padding-left: 1.0rem;
+	padding-top: .2rem;
+	padding-bottom: .4rem;
+	padding-right: 1rem;
+	
+}
+@font-face {
+	font-family: 'Pathologized Caslon';
+	src: url('font/PathologizedCaslon-Semibold.woff') format('woff');
+}
+body {
+    font-weight: 100;
+	font-size: 1.3rem;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Pathologized Caslon';
+    font-style: normal;
+    line-height: 1.8rem;
+    text-align: left;
+}
+body a {
+	color: rgba(0, 0, 0, 1);
+	text-decoration: underline;
+	text-decoration-style: wavy
+}
+
+bodycopy a.image-link,
+bodycopy a.icon-link,
+bodycopy a.image-link:hover,
+bodycopy a.icon-link:hover {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+h1 {
+    font-weight: 100;
+	font-size: 3.0rem;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Pathologized Caslon';
+    font-style: normal;
+    line-height: 3.8rem;
+    text-align: left;
+}
+h2 {
+    font-weight: 100;
+	font-size: 2.0rem;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Pathologized Caslon';
+    font-style: normal;
+    line-height: 2.7rem;
+    text-align: left;
+}
+h3 {
+    font-weight: 100;
+	font-size: 1.3rem;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Pathologized Caslon';
+    font-style: normal;
+    line-height: 1.8rem;
+    text-align: left;
+}
+img {
+	border: .5px solid rgba(224,255,99,1.00);
+}
+table {
+	border-color: #9999CC;
+	vertical-align: text-top;
+}
+video {
+	border: .5px solid rgba(224,255,99,1.00);
+}
+iframe {
+	border: .5px solid rgba(224,255,99,1.00);
+}
+.thumbnail:hover {
+    position:relative;
+    height:450px;
+	width: auto;
+    display:block;
+    z-index:999;
+}
+.zoom {
+  padding: 0px;
+  transition: transform .3s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.75); 
+  transform-origin: left
+}
+.crazycolumn1 {
+	background-color: #6600FF;
+}
+.crazycolumn2 {
+	background-color: #996633;
+}
+.crazycolumn3 {
+	background-color: #660000;
+}
+.crazycolumn4 {
+	background-color: #33FF99;
+}
+.crazycolumn5 {
+	background-color: #CC6666;
+}

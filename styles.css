@@ -117,7 +117,9 @@ iframe {
 	background-color: #CC6666;
 }
 #words .squiggle {
-	font-size: 1.0rem
+	font-size: 1.0rem;
+	cursor: pointer;
+	z-index: 10;
 }
 #words {
 	display:none;

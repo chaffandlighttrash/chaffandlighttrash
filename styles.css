@@ -116,3 +116,9 @@ iframe {
 .crazycolumn5 {
 	background-color: #CC6666;
 }
+#words .squiggle {
+	font-size: 1.0rem
+}
+#words {
+	display:none;
+}

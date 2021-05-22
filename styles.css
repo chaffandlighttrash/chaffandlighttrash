@@ -147,7 +147,7 @@ iframe {
 	position: absolute;
 	border: .5px solid black;
 	padding: 5px;
-	bottom: 25%;
+	bottom: 70%;
 	right: 100%;
 }
 .popup .popuptext::after {

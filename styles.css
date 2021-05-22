@@ -140,6 +140,7 @@ iframe {
 }
 .popuptext {
 	font-size: .9rem;
+	line-height: 1.0rem;
 	}
 .popup .popuptext::after {
 	content:"";

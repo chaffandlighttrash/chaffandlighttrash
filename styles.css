@@ -104,6 +104,15 @@ iframe {
   transform: scale(1.75); 
   transform-origin: left
 }
+.zoom-right {
+  padding: 0px;
+  transition: transform .3s; /* Animation */
+  margin: 0 auto;
+}
+.zoom-right:hover {
+  transform: scale(1.75); 
+  transform-origin: right;
+}
 .crazycolumn1 {
 	background-color: #6600FF;
 }
@@ -138,7 +147,7 @@ iframe {
 	position: absolute;
 	border: .5px solid black;
 	padding: 5px;
-	bottom: 100%;
+	bottom: 25%;
 	right: 100%;
 }
 .popup .popuptext::after {

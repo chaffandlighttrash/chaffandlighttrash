@@ -142,7 +142,7 @@ iframe {
 	z-index: 1;
 	visibility: hidden;
 	background-color: #55f2a1;
-	max-width: 700px;
+	width: 300px;
 	position: absolute;
 	border: .5px solid black;
 	padding: 5px;
@@ -152,11 +152,44 @@ iframe {
 .popup .popuptext::after {
 	content:"";
 	position: absolute;
-	top: 100%;
-        left: 50%;
+	top: 150%;
+        left: 75%;
         margin-left: -5px;
 }
 .popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+}
+.popup2 {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	 -webkit-user-select: none;
+  	-moz-user-select: none;
+ 	-ms-user-select: none;
+  	user-select: none;
+}
+.popup2 .popuptext2 {
+	cursor: pointer;
+	z-index: 1;
+	visibility: hidden;
+	background-color: #55f2a1;
+	width: 750px;
+	position: absolute;
+	border: .5px solid black;
+	padding: 5px;
+	bottom: 70%;
+	right: 100%;
+}
+.popup2 .popuptext2::after {
+	content:"";
+	position: absolute;
+	top: 150%;
+        left: 75%;
+        margin-left: -5px;
+}
+.popup2 .show {
 	visibility: visible;
 	-webkit-animation: fadeIn 1s;
 	animation: fadeIn 1s;

@@ -123,7 +123,10 @@ iframe {
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
-	.popuptext {
+	 -webkit-user-select: none;
+  	-moz-user-select: none;
+ 	-ms-user-select: none;
+  	user-select: none;
 }
 .popup .popuptext {
 	cursor: pointer;
@@ -132,7 +135,7 @@ iframe {
 	background-color: #55f2a1;
 	width: 300px;
 	position: absolute;
-	border: 1px double black;
+	border: 2px double black;
 	padding: 5px;
 	bottom: 200%;
 	right: 100%;
@@ -140,9 +143,21 @@ iframe {
 .popup .popuptext::after {
 	content:"";
 	position: absolute;
+	top: 100%;
+        left: 50%;
+        margin-left: -5px;
 }
 .popup .show {
 	visibility: visible;
 	-webkit-animation: fadeIn 1s;
 	animation: fadeIn 1s;
+}
+	@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
 }

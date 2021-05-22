@@ -119,13 +119,13 @@ iframe {
 .crazycolumn5 {
 	background-color: #CC6666;
 }
-.sunlight  {
+.popup  {
 	position: relative;
 	display: inline-block;
 	font-size: 1.0rem;
 	cursor: pointer;
 }
-.sunlight .popup {
+.popup .popuptext {
 	font-size: 1.0rem;
 	cursor: default;
 	z-index: 1;
@@ -138,11 +138,11 @@ iframe {
 	bottom: 200%;
 	left: 200%;
 }
-.sunlight .popup::after {
+.popup .popuptext::after {
 	content:"";
 	position: absolute;
 }
-.sunlight .show {
+.popup .show {
 	visibility: visible;
 	-webkit-animation: fadeIn 1s;
 	animation: fadeIn 1s;

@@ -116,11 +116,14 @@ iframe {
 .crazycolumn5 {
 	background-color: #CC6666;
 }
-#words .squiggle {
+.squiggle {
 	font-size: 1.0rem;
 	cursor: pointer;
 	z-index: 10;
 }
 #words {
+	font-size: 1.0rem;
+	cursor: pointer;
+	z-index: 10;
 	display:none;
 }

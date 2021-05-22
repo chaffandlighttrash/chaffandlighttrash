@@ -126,8 +126,8 @@ iframe {
 	cursor: pointer;
 	.popuptext {
 }
-.popup .popuptext {
-	cursor: default;
+.popup {
+	cursor: pointer;
 	z-index: 1;
 	visibility: hidden;
 	background-color: #55f2a1;
@@ -141,6 +141,16 @@ iframe {
 .popuptext {
 	font-size: .9rem;
 	line-height: 1.0rem;
+	cursor: default;
+	z-index: 1;
+	visibility: hidden;
+	background-color: #55f2a1;
+	width: 300px;
+	position: absolute;
+	border: 1px double black;
+	padding: 5px;
+	bottom: 200%;
+	right: 100%;
 	}
 .popup .popuptext::after {
 	content:"";

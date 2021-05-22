@@ -125,7 +125,7 @@ iframe {
 	font-size: 1.0rem;
 	cursor: pointer;
 }
-.popup .words {
+#words .popup {
 	font-size: 1.0rem;
 	cursor: default;
 	z-index: 1;
@@ -137,4 +137,9 @@ iframe {
 	padding: 5px;
 	bottom: 200%;
 	left: 200%;
+}
+.popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
 }

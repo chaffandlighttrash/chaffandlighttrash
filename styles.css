@@ -122,11 +122,11 @@ iframe {
 .popup  {
 	position: relative;
 	display: inline-block;
-	font-size: 1.0rem;
+	font-size: 1.3rem;
 	cursor: pointer;
+	.popuptext {
 }
 .popup .popuptext {
-	font-size: 1.0rem;
 	cursor: default;
 	z-index: 1;
 	visibility: hidden;
@@ -138,6 +138,9 @@ iframe {
 	bottom: 200%;
 	right: 100%;
 }
+.popuptext {
+	font-size: .9rem;
+	}
 .popup .popuptext::after {
 	content:"";
 	position: absolute;

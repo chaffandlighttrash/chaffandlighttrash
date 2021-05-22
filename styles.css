@@ -119,14 +119,22 @@ iframe {
 .crazycolumn5 {
 	background-color: #CC6666;
 }
-.squiggle {
+.sunlight {
+	position: relative;
+	display: inline-block;
 	font-size: 1.0rem;
 	cursor: pointer;
-	z-index: 10;
 }
-#words {
+.popup .words {
 	font-size: 1.0rem;
 	cursor: default;
-	z-index: 10;
-	display:none;
+	z-index: 1;
+	visibility: hidden;
+	background-color: #55f2a1;
+	width: 300px;
+	position: absolute;
+	border: 1px double black;
+	padding: 5px;
+	bottom: 200%;
+	left: 200%;
 }

@@ -42,7 +42,7 @@ body a {
 bodycopy a.image-link,
 bodycopy a.icon-link,
 bodycopy a.image-link:hover,
-bodycopy a.icon-link:hover {
+bodycopy a.icon-link:hover, body a:hover {
 	border-bottom: 0;
 	padding-bottom: 0;
 	color: #996633;

@@ -45,6 +45,7 @@ bodycopy a.image-link:hover,
 bodycopy a.icon-link:hover {
 	border-bottom: 0;
 	padding-bottom: 0;
+	color: #996633;
 }
 h1 {
     font-weight: 100;

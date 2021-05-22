@@ -189,11 +189,6 @@ iframe {
         left: 75%;
         margin-left: -5px;
 }
-.popup2 .show {
-	visibility: visible;
-	-webkit-animation: fadeIn 1s;
-	animation: fadeIn 1s;
-}
 	@-webkit-keyframes fadeIn {
   from {opacity: 0;} 
   to {opacity: 1;}

@@ -136,7 +136,8 @@ iframe {
   	-moz-user-select: none;
  	-ms-user-select: none;
   	user-select: none;
-	font-size: 1.0rem;
+	font-size: 1.3rem;
+	line-height: 1.8rem;
 }
 .popup .popuptext {
 	cursor: pointer;

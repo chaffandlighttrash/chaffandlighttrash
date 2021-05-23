@@ -138,18 +138,7 @@ iframe {
   	user-select: none;
 	font-size: 2.0rem;
 }
-.popup {
-	cursor: pointer;
-	visibility: hidden;
-	background-color: #55f2a1;
-	width: 400px;
-	position: absolute;
-	border: .5px solid black;
-	padding: 5px;
-	bottom: 70%;
-	right: 100%;
-}
-.popuptext {
+.popup .popuptext {
 	cursor: pointer;
 	z-index: 1;
 	visibility: hidden;

@@ -136,7 +136,7 @@ iframe {
   	-moz-user-select: none;
  	-ms-user-select: none;
   	user-select: none;
-	font-size: 1.3rem;
+	font-size: 3.0rem;
 	line-height: 1.8rem;
 }
 .popup .popuptext {
@@ -144,6 +144,7 @@ iframe {
 	z-index: 1;
 	visibility: hidden;
 	background-color: #55f2a1;
+	font-size: 1.3rem;
 	width: 400px;
 	position: absolute;
 	border: .5px solid black;
